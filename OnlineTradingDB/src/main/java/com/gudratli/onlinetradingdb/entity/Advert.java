@@ -53,6 +53,7 @@ public class Advert
     @NonNull
     private Boolean used;
     @Column(name = "publish_date")
+    @Setter
     private Date publishDate;
     @OneToMany(mappedBy = "advert")
     private List<Image> images;
@@ -63,6 +64,7 @@ public class Advert
         return "Advert{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
+                ", publish date=" + publishDate +
                 ", category=" + category +
                 ", subcategory=" + subcategory +
                 ", kind=" + kind +

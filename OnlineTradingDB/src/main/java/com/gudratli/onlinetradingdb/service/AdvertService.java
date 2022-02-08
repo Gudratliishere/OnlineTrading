@@ -7,6 +7,7 @@ import com.gudratli.onlinetradingdb.util.AdvertFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -50,6 +51,7 @@ public class AdvertService
 
     public Advert add (Advert advert)
     {
+        advert.setPublishDate(new Date());
         return advertRepository.save(advert);
     }
 
