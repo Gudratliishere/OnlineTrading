@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<details>
+    <database>
+        <url>jdbc:mysql://localhost:3306/online_trading</url>
+        <username>vssx</username>
+        <password>6446</password>
+        <crypt_power>4</crypt_power>
+    </database>
+</details>

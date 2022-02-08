@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5081e44-b5d2-4efe-889c-4d2eeee4197d" name="Default Changelist" comment="" />
+    <list default="true" id="e5081e44-b5d2-4efe-889c-4d2eeee4197d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/OnlineTradingDBWithJDBC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/Advert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/Advert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/Kind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/Kind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/Subcategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/Subcategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/main/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,19 +43,29 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="24gktNSR2lLuQ3YGooTgtkfHLc8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -59,6 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1644059830876</updated>
       <workItem from="1644059832894" duration="1144000" />
+      <workItem from="1644321444948" duration="7132000" />
     </task>
     <servers />
   </component>
@@ -66,29 +106,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="41" key="#Project_Structure" timestamp="1644059872481">
+    <state x="275" y="41" key="#Project_Structure" timestamp="1644326500848">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="41" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1644059872481" />
-    <state x="137" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1644059988147">
+    <state x="275" y="41" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1644326500848" />
+    <state x="137" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1644326868784">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="137" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1644059988147" />
-    <state width="1322" height="187" key="GridCell.Tab.0.bottom" timestamp="1644060977422">
+    <state x="137" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1644326868784" />
+    <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser" timestamp="1644322965587">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="187" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1644060977422" />
-    <state width="1322" height="187" key="GridCell.Tab.0.center" timestamp="1644060977422">
+    <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1644322965587" />
+    <state width="1322" height="187" key="GridCell.Tab.0.bottom" timestamp="1644331312438">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="187" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1644060977422" />
-    <state width="1322" height="187" key="GridCell.Tab.0.left" timestamp="1644060977421">
+    <state width="1322" height="187" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1644331312438" />
+    <state width="1322" height="187" key="GridCell.Tab.0.center" timestamp="1644331312438">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="187" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1644060977421" />
-    <state width="1322" height="187" key="GridCell.Tab.0.right" timestamp="1644060977422">
+    <state width="1322" height="187" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1644331312438" />
+    <state width="1322" height="187" key="GridCell.Tab.0.left" timestamp="1644331312438">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="187" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1644060977422" />
+    <state width="1322" height="187" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1644331312438" />
+    <state width="1322" height="187" key="GridCell.Tab.0.right" timestamp="1644331312438">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="187" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1644331312438" />
+    <state x="184" y="14" key="SettingsEditor" timestamp="1644324192773">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="14" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1644324192773" />
   </component>
 </project>
