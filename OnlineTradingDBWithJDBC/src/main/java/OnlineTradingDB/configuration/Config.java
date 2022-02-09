@@ -21,7 +21,7 @@ public class Config
 {
     private final static Logger LOG = Logger.getLogger(Config.class.getName());
 
-    private final String connectionConfigFilePath = "resources\\database_configuration.xml";
+    private final String connectionConfigFilePath = "src\\main\\resources\\database_configuration.xml";
     private Connection connection = null;
 
     private static Config config = null;
@@ -103,7 +103,7 @@ public class Config
     {
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection connection = Config.getConfig().getConnection();
-        return DriverManager.getConnection(connection.getUrl(), connection.getUsername(),
-                connection.getPassword());
+        return DriverManager.getConnection(connection.getUrl(), connection.Decrypt(connection.getUsername()),
+                connection.Decrypt(connection.getPassword()));
     }
 }

@@ -1,11 +1,15 @@
 package OnlineTradingDB.entity;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 
 import java.util.Date;
 
 @Data
+@NoArgsConstructor
+@RequiredArgsConstructor
 public class Advert
 {
     private Long id;
