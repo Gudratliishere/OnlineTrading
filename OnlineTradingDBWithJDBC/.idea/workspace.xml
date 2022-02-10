@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5081e44-b5d2-4efe-889c-4d2eeee4197d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/configuration/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/configuration/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/configuration/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/configuration/Context.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/dao/impl/CityDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/dao/impl/CityDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/Advert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/Advert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/Image.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/Kind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/Kind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/Subcategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/Subcategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,12 +24,18 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="online_trading@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -106,7 +104,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="online_trading@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@12a6ef45" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@b70f225" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -129,7 +127,8 @@
       <workItem from="1644321444948" duration="7132000" />
       <workItem from="1644405692389" duration="1833000" />
       <workItem from="1644407562867" duration="3318000" />
-      <workItem from="1644411195970" duration="3712000" />
+      <workItem from="1644411195970" duration="3911000" />
+      <workItem from="1644490622525" duration="2293000" />
     </task>
     <servers />
   </component>
@@ -141,34 +140,34 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="41" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1644326500848" />
-    <state x="275" y="41" key="#SQL_Dialects" timestamp="1644410484757">
+    <state x="275" y="41" key="#SQL_Dialects" timestamp="1644491471705">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="41" key="#SQL_Dialects/0.0.1366.768@0.0.1366.768" timestamp="1644410484757" />
+    <state x="275" y="41" key="#SQL_Dialects/0.0.1366.768@0.0.1366.768" timestamp="1644491471705" />
     <state x="137" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1644411139159">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="137" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1644411139159" />
-    <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser" timestamp="1644322965587">
+    <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser" timestamp="1644490820840">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1644322965587" />
-    <state width="1321" height="341" key="GridCell.Tab.0.bottom" timestamp="1644417077128">
+    <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1644490820840" />
+    <state width="1321" height="341" key="GridCell.Tab.0.bottom" timestamp="1644493163841">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="341" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1644417077128" />
-    <state width="1321" height="341" key="GridCell.Tab.0.center" timestamp="1644417077128">
+    <state width="1321" height="341" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1644493163841" />
+    <state width="1321" height="341" key="GridCell.Tab.0.center" timestamp="1644493163841">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="341" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1644417077128" />
-    <state width="1321" height="341" key="GridCell.Tab.0.left" timestamp="1644417077128">
+    <state width="1321" height="341" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1644493163841" />
+    <state width="1321" height="341" key="GridCell.Tab.0.left" timestamp="1644493163841">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="341" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1644417077128" />
-    <state width="1321" height="341" key="GridCell.Tab.0.right" timestamp="1644417077128">
+    <state width="1321" height="341" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1644493163841" />
+    <state width="1321" height="341" key="GridCell.Tab.0.right" timestamp="1644493163841">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="341" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1644417077128" />
+    <state width="1321" height="341" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1644493163841" />
     <state width="1321" height="233" key="GridCell.Tab.1.bottom" timestamp="1644411163292">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -185,10 +184,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1321" height="233" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1644411163291" />
-    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1644411299897">
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1644491117840">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.768@0.0.1366.768" timestamp="1644411299897" />
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.768@0.0.1366.768" timestamp="1644491117840" />
     <state x="263" y="117" key="IDE.errors.dialog" timestamp="1644409889803">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -205,9 +204,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="380" y="0" width="567" height="720" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1644411085272" />
-    <state x="378" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1644411278430">
+    <state x="378" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1644490622438">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="378" y="206" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1644411278430" />
+    <state x="378" y="206" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1644490622438" />
   </component>
 </project>

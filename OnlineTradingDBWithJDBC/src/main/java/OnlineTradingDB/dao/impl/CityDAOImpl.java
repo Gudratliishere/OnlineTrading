@@ -22,6 +22,7 @@ public class CityDAOImpl implements CityDAO
     public City add (City city)
     {
         String query = "insert into city(name) values(?);";
+        String queryForId = "select LAST_INSERT_ID()";
 
         try (Connection connection = connect())
         {
@@ -30,11 +31,11 @@ public class CityDAOImpl implements CityDAO
 
             preparedStatement.execute();
 
-            PreparedStatement preparedStatement1 =
-                    connection.prepareStatement("select LAST_INSERT_ID()");
-            preparedStatement1.execute();
+            PreparedStatement preparedStatementForId =
+                    connection.prepareStatement(queryForId);
+            preparedStatementForId.execute();
 
-            ResultSet resultSet = preparedStatement1.getResultSet();
+            ResultSet resultSet = preparedStatementForId.getResultSet();
             if (resultSet.next())
                 city.setId(resultSet.getLong(1));
             return city;
