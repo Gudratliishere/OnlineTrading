@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5081e44-b5d2-4efe-889c-4d2eeee4197d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/configuration/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/configuration/Context.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/main/Main.java" afterDir="false" />
     </list>
@@ -125,50 +128,62 @@
       <workItem from="1644405692389" duration="1833000" />
       <workItem from="1644407562867" duration="3318000" />
       <workItem from="1644411195970" duration="3911000" />
-      <workItem from="1644490622525" duration="4139000" />
+      <workItem from="1644490622525" duration="6408000" />
     </task>
+    <task id="LOCAL-00001" summary="categorydao completed">
+      <created>1644494971973</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644494971973</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="categorydao completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="categorydao completed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="41" key="#Project_Structure" timestamp="1644326500848">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="41" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1644326500848" />
-    <state x="275" y="41" key="#SQL_Dialects" timestamp="1644491471705">
+    <state x="275" y="41" key="#SQL_Dialects" timestamp="1644497222763">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="41" key="#SQL_Dialects/0.0.1366.768@0.0.1366.768" timestamp="1644491471705" />
+    <state x="275" y="41" key="#SQL_Dialects/0.0.1366.768@0.0.1366.768" timestamp="1644497222763" />
     <state x="137" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1644411139159">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="137" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1644411139159" />
-    <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser" timestamp="1644493427552">
+    <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser" timestamp="1644496249415">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1644493427552" />
-    <state x="177" y="0" key="CommitChangelistDialog2" timestamp="1644494970659">
+    <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1644496249415" />
+    <state x="177" y="0" key="CommitChangelistDialog2" timestamp="1644494994509">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="177" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1644494970659" />
-    <state width="904" height="331" key="GridCell.Tab.0.bottom" timestamp="1644494929212">
+    <state x="177" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1644494994509" />
+    <state width="1321" height="341" key="GridCell.Tab.0.bottom" timestamp="1644497691314">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="904" height="331" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1644494929212" />
-    <state width="904" height="331" key="GridCell.Tab.0.center" timestamp="1644494929212">
+    <state width="1321" height="341" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1644497691314" />
+    <state width="1321" height="341" key="GridCell.Tab.0.center" timestamp="1644497691314">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="904" height="331" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1644494929212" />
-    <state width="904" height="331" key="GridCell.Tab.0.left" timestamp="1644494929212">
+    <state width="1321" height="341" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1644497691314" />
+    <state width="1321" height="341" key="GridCell.Tab.0.left" timestamp="1644497691314">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="904" height="331" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1644494929212" />
-    <state width="904" height="331" key="GridCell.Tab.0.right" timestamp="1644494929212">
+    <state width="1321" height="341" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1644497691314" />
+    <state width="1321" height="341" key="GridCell.Tab.0.right" timestamp="1644497691314">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="904" height="331" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1644494929212" />
+    <state width="1321" height="341" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1644497691314" />
     <state width="1321" height="233" key="GridCell.Tab.1.bottom" timestamp="1644411163292">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
