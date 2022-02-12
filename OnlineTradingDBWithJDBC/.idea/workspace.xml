@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5081e44-b5d2-4efe-889c-4d2eeee4197d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/configuration/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/configuration/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/dao/impl/KindDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/dao/impl/KindDAOImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +126,7 @@
       <workItem from="1644407562867" duration="3318000" />
       <workItem from="1644411195970" duration="3911000" />
       <workItem from="1644490622525" duration="6649000" />
-      <workItem from="1644667512742" duration="1730000" />
+      <workItem from="1644667512742" duration="3287000" />
     </task>
     <task id="LOCAL-00001" summary="categorydao completed">
       <created>1644494971973</created>
@@ -164,26 +162,30 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1644667721836" />
+    <state x="392" y="151" key="#com.intellij.refactoring.memberPushDown.PushDownDialog" timestamp="1644676047215">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="392" y="151" key="#com.intellij.refactoring.memberPushDown.PushDownDialog/0.0.1366.768@0.0.1366.768" timestamp="1644676047215" />
     <state x="177" y="0" key="CommitChangelistDialog2" timestamp="1644494994509">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="177" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1644494994509" />
-    <state width="904" height="331" key="GridCell.Tab.0.bottom" timestamp="1644669380851">
+    <state width="904" height="331" key="GridCell.Tab.0.bottom" timestamp="1644669419903">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="904" height="331" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1644669380851" />
-    <state width="904" height="331" key="GridCell.Tab.0.center" timestamp="1644669380850">
+    <state width="904" height="331" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1644669419903" />
+    <state width="904" height="331" key="GridCell.Tab.0.center" timestamp="1644669419903">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="904" height="331" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1644669380850" />
-    <state width="904" height="331" key="GridCell.Tab.0.left" timestamp="1644669380850">
+    <state width="904" height="331" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1644669419903" />
+    <state width="904" height="331" key="GridCell.Tab.0.left" timestamp="1644669419903">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="904" height="331" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1644669380850" />
-    <state width="904" height="331" key="GridCell.Tab.0.right" timestamp="1644669380850">
+    <state width="904" height="331" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1644669419903" />
+    <state width="904" height="331" key="GridCell.Tab.0.right" timestamp="1644669419903">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="904" height="331" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1644669380850" />
+    <state width="904" height="331" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1644669419903" />
     <state width="1321" height="233" key="GridCell.Tab.1.bottom" timestamp="1644411163292">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -204,10 +206,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.768@0.0.1366.768" timestamp="1644491117840" />
-    <state x="263" y="117" key="IDE.errors.dialog" timestamp="1644493886372">
+    <state x="263" y="117" key="IDE.errors.dialog" timestamp="1644669708588">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="263" y="117" key="IDE.errors.dialog/0.0.1366.768@0.0.1366.768" timestamp="1644493886372" />
+    <state x="263" y="117" key="IDE.errors.dialog/0.0.1366.768@0.0.1366.768" timestamp="1644669708588" />
     <state x="184" y="14" key="SettingsEditor" timestamp="1644324192773">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

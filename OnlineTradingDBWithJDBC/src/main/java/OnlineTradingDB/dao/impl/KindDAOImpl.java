@@ -5,7 +5,6 @@ import OnlineTradingDB.dao.inter.KindDAO;
 import OnlineTradingDB.dao.inter.SubcategoryDAO;
 import OnlineTradingDB.entity.Kind;
 import OnlineTradingDB.entity.Subcategory;
-import sun.plugin.dom.core.CoreConstants;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
