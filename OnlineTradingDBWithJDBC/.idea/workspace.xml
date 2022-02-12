@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5081e44-b5d2-4efe-889c-4d2eeee4197d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/configuration/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/configuration/Context.java" afterDir="false" />
@@ -104,7 +103,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="online_trading@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@b70f225" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@3af7f090" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -128,7 +127,8 @@
       <workItem from="1644405692389" duration="1833000" />
       <workItem from="1644407562867" duration="3318000" />
       <workItem from="1644411195970" duration="3911000" />
-      <workItem from="1644490622525" duration="6408000" />
+      <workItem from="1644490622525" duration="6649000" />
+      <workItem from="1644667512742" duration="1730000" />
     </task>
     <task id="LOCAL-00001" summary="categorydao completed">
       <created>1644494971973</created>
@@ -152,38 +152,38 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="41" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1644326500848" />
-    <state x="275" y="41" key="#SQL_Dialects" timestamp="1644497222763">
+    <state x="275" y="41" key="#SQL_Dialects" timestamp="1644668008105">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="41" key="#SQL_Dialects/0.0.1366.768@0.0.1366.768" timestamp="1644497222763" />
+    <state x="275" y="41" key="#SQL_Dialects/0.0.1366.768@0.0.1366.768" timestamp="1644668008105" />
     <state x="137" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1644411139159">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="137" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1644411139159" />
-    <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser" timestamp="1644496249415">
+    <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser" timestamp="1644667721836">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1644496249415" />
+    <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1644667721836" />
     <state x="177" y="0" key="CommitChangelistDialog2" timestamp="1644494994509">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="177" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1644494994509" />
-    <state width="1321" height="341" key="GridCell.Tab.0.bottom" timestamp="1644497691314">
+    <state width="904" height="331" key="GridCell.Tab.0.bottom" timestamp="1644669380851">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="341" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1644497691314" />
-    <state width="1321" height="341" key="GridCell.Tab.0.center" timestamp="1644497691314">
+    <state width="904" height="331" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1644669380851" />
+    <state width="904" height="331" key="GridCell.Tab.0.center" timestamp="1644669380850">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="341" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1644497691314" />
-    <state width="1321" height="341" key="GridCell.Tab.0.left" timestamp="1644497691314">
+    <state width="904" height="331" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1644669380850" />
+    <state width="904" height="331" key="GridCell.Tab.0.left" timestamp="1644669380850">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="341" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1644497691314" />
-    <state width="1321" height="341" key="GridCell.Tab.0.right" timestamp="1644497691314">
+    <state width="904" height="331" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1644669380850" />
+    <state width="904" height="331" key="GridCell.Tab.0.right" timestamp="1644669380850">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="341" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1644497691314" />
+    <state width="904" height="331" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1644669380850" />
     <state width="1321" height="233" key="GridCell.Tab.1.bottom" timestamp="1644411163292">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -220,9 +220,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="380" y="0" width="567" height="720" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1644411085272" />
-    <state x="378" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1644490622438">
+    <state x="378" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1644667511457">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="378" y="206" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1644490622438" />
+    <state x="378" y="206" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1644667511457" />
   </component>
 </project>

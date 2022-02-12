@@ -1,13 +1,7 @@
 package OnlineTradingDB.configuration;
 
-import OnlineTradingDB.dao.impl.CategoryDAOImpl;
-import OnlineTradingDB.dao.impl.CityDAOImpl;
-import OnlineTradingDB.dao.impl.SubcategoryDAOImpl;
-import OnlineTradingDB.dao.impl.UserDAOImpl;
-import OnlineTradingDB.dao.inter.CategoryDAO;
-import OnlineTradingDB.dao.inter.CityDAO;
-import OnlineTradingDB.dao.inter.SubcategoryDAO;
-import OnlineTradingDB.dao.inter.UserDAO;
+import OnlineTradingDB.dao.impl.*;
+import OnlineTradingDB.dao.inter.*;
 
 public class Context
 {
@@ -15,6 +9,15 @@ public class Context
     private static UserDAO userDAO = null;
     private static CategoryDAO categoryDAO = null;
     private static SubcategoryDAO subcategoryDAO = null;
+    private static KindDAO kindDAO = null;
+
+    public static KindDAO getKindDAO ()
+    {
+        if (kindDAO == null)
+            kindDAO = new KindDAOImpl();
+
+        return kindDAO;
+    }
 
     public static SubcategoryDAO getSubcategoryDAO ()
     {
