@@ -31,4 +31,6 @@ public class Advert
     private Kind kind;
     @NonNull
     private User user;
+    @NonNull
+    private City city;
 }

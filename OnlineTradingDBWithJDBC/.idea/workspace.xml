@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5081e44-b5d2-4efe-889c-4d2eeee4197d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/dao/impl/KindDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/dao/impl/KindDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/configuration/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/configuration/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/dao/inter/AdvertDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/dao/inter/AdvertDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/Advert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/entity/Advert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnlineTradingDB/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/app.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/app.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app.log.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app.log.2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +110,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="online_trading@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@3af7f090" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@70f7d811" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -126,7 +135,8 @@
       <workItem from="1644407562867" duration="3318000" />
       <workItem from="1644411195970" duration="3911000" />
       <workItem from="1644490622525" duration="6649000" />
-      <workItem from="1644667512742" duration="3287000" />
+      <workItem from="1644667512742" duration="3430000" />
+      <workItem from="1644873448639" duration="5707000" />
     </task>
     <task id="LOCAL-00001" summary="categorydao completed">
       <created>1644494971973</created>
@@ -146,22 +156,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="categorydao completed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="41" key="#Project_Structure" timestamp="1644326500848">
+    <state x="275" y="41" key="#Project_Structure" timestamp="1644878787455">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="41" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1644326500848" />
-    <state x="275" y="41" key="#SQL_Dialects" timestamp="1644668008105">
+    <state x="275" y="41" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1644878787455" />
+    <state x="275" y="41" key="#SQL_Dialects" timestamp="1644875388705">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="41" key="#SQL_Dialects/0.0.1366.768@0.0.1366.768" timestamp="1644668008105" />
+    <state x="275" y="41" key="#SQL_Dialects/0.0.1366.768@0.0.1366.768" timestamp="1644875388705" />
     <state x="137" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1644411139159">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="137" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1644411139159" />
-    <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser" timestamp="1644667721836">
+    <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser" timestamp="1644873700025">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1644667721836" />
+    <state x="488" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1644873700025" />
     <state x="392" y="151" key="#com.intellij.refactoring.memberPushDown.PushDownDialog" timestamp="1644676047215">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -170,22 +180,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="177" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1644494994509" />
-    <state width="904" height="331" key="GridCell.Tab.0.bottom" timestamp="1644669419903">
+    <state width="904" height="331" key="GridCell.Tab.0.bottom" timestamp="1644879174244">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="904" height="331" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1644669419903" />
-    <state width="904" height="331" key="GridCell.Tab.0.center" timestamp="1644669419903">
+    <state width="904" height="331" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1644879174244" />
+    <state width="904" height="331" key="GridCell.Tab.0.center" timestamp="1644879174244">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="904" height="331" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1644669419903" />
-    <state width="904" height="331" key="GridCell.Tab.0.left" timestamp="1644669419903">
+    <state width="904" height="331" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1644879174244" />
+    <state width="904" height="331" key="GridCell.Tab.0.left" timestamp="1644879174244">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="904" height="331" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1644669419903" />
-    <state width="904" height="331" key="GridCell.Tab.0.right" timestamp="1644669419903">
+    <state width="904" height="331" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1644879174244" />
+    <state width="904" height="331" key="GridCell.Tab.0.right" timestamp="1644879174244">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="904" height="331" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1644669419903" />
+    <state width="904" height="331" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1644879174244" />
     <state width="1321" height="233" key="GridCell.Tab.1.bottom" timestamp="1644411163292">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -222,9 +232,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="380" y="0" width="567" height="720" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1644411085272" />
-    <state x="378" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1644667511457">
+    <state x="378" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1644873483634">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="378" y="206" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1644667511457" />
+    <state x="378" y="206" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1644873483634" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1644877423538">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1644877423538" />
   </component>
 </project>

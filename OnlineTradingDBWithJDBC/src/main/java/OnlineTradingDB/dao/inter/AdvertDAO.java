@@ -9,7 +9,7 @@ public interface AdvertDAO
     Advert add (Advert advert);
     Advert update (Advert advert);
     void remove (Advert advert);
-    Advert getById (Advert advert);
+    Advert getById (Long id);
     List<Advert> getAll ();
     List<Advert> getByName (String name);
     List<Advert> getByCity (City city);

@@ -2,6 +2,7 @@ package OnlineTradingDB.configuration;
 
 import OnlineTradingDB.dao.impl.*;
 import OnlineTradingDB.dao.inter.*;
+import OnlineTradingDB.entity.Advert;
 
 public class Context
 {
@@ -10,6 +11,15 @@ public class Context
     private static CategoryDAO categoryDAO = null;
     private static SubcategoryDAO subcategoryDAO = null;
     private static KindDAO kindDAO = null;
+    private static AdvertDAO advertDAO = null;
+
+    public static AdvertDAO getAdvertDAO ()
+    {
+        if (advertDAO == null)
+            advertDAO = new AdvertDAOImpl();
+
+        return advertDAO;
+    }
 
     public static KindDAO getKindDAO ()
     {
