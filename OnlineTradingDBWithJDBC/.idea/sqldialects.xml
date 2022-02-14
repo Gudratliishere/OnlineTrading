@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/src/main/java/OnlineTradingDB/dao/impl/AdvertDAOImpl.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/OnlineTradingDB/dao/impl/AdvertDAOImpl.java" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/main/java/OnlineTradingDB/dao/impl/CityDAOImpl.java" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/src/main/java/OnlineTradingDB/dao/impl/KindDAOImpl.java" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/src/main/java/OnlineTradingDB/dao/impl/SubcategoryDAOImpl.java" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/src/main/java/OnlineTradingDB/dao/impl/UserDAOImpl.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/OnlineTradingDB/dao/impl/ImageDAOImpl.java" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/OnlineTradingDB/dao/impl/KindDAOImpl.java" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/OnlineTradingDB/dao/impl/SubcategoryDAOImpl.java" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/OnlineTradingDB/dao/impl/UserDAOImpl.java" dialect="MySQL" />
   </component>
 </project>

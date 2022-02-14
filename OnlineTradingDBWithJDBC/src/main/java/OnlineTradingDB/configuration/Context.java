@@ -12,6 +12,15 @@ public class Context
     private static SubcategoryDAO subcategoryDAO = null;
     private static KindDAO kindDAO = null;
     private static AdvertDAO advertDAO = null;
+    private static ImageDAO imageDAO = null;
+
+    public static ImageDAO getImageDAO ()
+    {
+        if (imageDAO == null)
+            imageDAO = new ImageDAOImpl();
+
+        return imageDAO;
+    }
 
     public static AdvertDAO getAdvertDAO ()
     {
