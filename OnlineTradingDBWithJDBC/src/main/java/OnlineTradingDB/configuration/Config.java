@@ -4,14 +4,10 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
-import java.io.IOException;
-import java.net.ConnectException;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.logging.Level;
@@ -20,13 +16,14 @@ import java.util.logging.Logger;
 public class Config
 {
     private final static Logger LOG = Logger.getLogger(Config.class.getName());
-
+    private static Config config = null;
     private final String connectionConfigFilePath = "src\\main\\resources\\database_configuration.xml";
     private Connection connection = null;
 
-    private static Config config = null;
-
-    private Config () {}
+    private Config ()
+    {
+        initDatabase();
+    }
 
     public static Config getConfig ()
     {
@@ -35,9 +32,17 @@ public class Config
         return config;
     }
 
+    public static java.sql.Connection connect () throws ClassNotFoundException, SQLException
+    {
+        Class.forName("com.mysql.cj.jdbc.Driver");
+        Connection connection = Config.getConfig().getConnection();
+        return DriverManager.getConnection(connection.getUrl(), connection.Decrypt(connection.getUsername()),
+                connection.Decrypt(connection.getPassword()));
+    }
+
     public void initDatabase ()
     {
-
+        DatabaseInitializer.initDatabase();
     }
 
     public Connection getConnection ()
@@ -73,8 +78,7 @@ public class Config
             }
         } catch (Exception e)
         {
-            LOG.log(Level.SEVERE, "Exception occurred while reading 'database_configuration.xml' " +
-                    "file.\n" + e.getMessage() + '\n' + e.getStackTrace());
+            LOG.log(Level.SEVERE, "Exception occurred while reading 'database_configuration.xml' file.\n", e);
         }
     }
 
@@ -97,13 +101,5 @@ public class Config
         connection.setUsername("root");
         connection.setPassword("2002");
         connection.setCryptPower(4);
-    }
-
-    public static java.sql.Connection connect () throws ClassNotFoundException, SQLException
-    {
-        Class.forName("com.mysql.cj.jdbc.Driver");
-        Connection connection = Config.getConfig().getConnection();
-        return DriverManager.getConnection(connection.getUrl(), connection.Decrypt(connection.getUsername()),
-                connection.Decrypt(connection.getPassword()));
     }
 }
