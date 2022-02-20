@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e5081e44-b5d2-4efe-889c-4d2eeee4197d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/app.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/app.log.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/app.log.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/app.log.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/app.log.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/app.log.6" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +127,7 @@
       <workItem from="1644490622525" duration="6649000" />
       <workItem from="1644667512742" duration="3430000" />
       <workItem from="1644873448639" duration="8092000" />
-      <workItem from="1644923500316" duration="3882000" />
+      <workItem from="1644923500316" duration="4936000" />
     </task>
     <task id="LOCAL-00001" summary="categorydao completed">
       <created>1644494971973</created>
