@@ -1,3 +1,4 @@
+<%@ taglib prefix="th" uri="http://www.springframework.org/tags" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -11,6 +12,7 @@
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
     <script src="js/Index.js"></script>
+    <script type="text/javascript" src="/static/js/account.js"></script>
 </head>
 <body>
 <div class="header">
@@ -42,18 +44,19 @@
             <div class="col-2">
                 <div class="form-container">
                     <div class="form-btn">
-                        <span>Login</span>
-                        <span>Register</span>
+                        <span onclick="loginToggle()">Login</span>
+                        <span onclick="registerToggle()">Register</span>
+                        <hr id="Indicator">
                     </div>
 
-                    <form>
+                    <form id="LoginForm">
                         <input type="text" placeholder="username">
                         <input type="password" placeholder="Password">
                         <button type="submit" class="btn">Login</button>
                         <a href="#">Forget password?</a>
                     </form>
 
-                    <form>
+                    <form id="RegisterForm">
                         <input type="text" placeholder="username">
                         <input type="email" placeholder="Email">
                         <input type="password" placeholder="Password">
