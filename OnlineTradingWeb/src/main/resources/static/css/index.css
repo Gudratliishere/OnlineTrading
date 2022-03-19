@@ -15,6 +15,7 @@ body {
 }
 
 nav {
+    z-index: 6;
     flex: 1;
     text-align: right;
 }

@@ -11,8 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
-    <script src="js/Index.js"></script>
-    <script type="text/javascript" src="/static/js/account.js"></script>
 </head>
 <body>
 <div class="header">
@@ -112,3 +110,5 @@
 </body>
 </html>
 
+<script src="js/Index.js"></script>
+<script src="js/Account.js"></script>
