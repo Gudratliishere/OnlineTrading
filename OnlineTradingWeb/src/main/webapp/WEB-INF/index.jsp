@@ -15,15 +15,15 @@
     <div class="container">
         <div class="navbar">
             <div class="logo">
-                <a href="/">Al Sat</a>
+                <a href="${pageContext.request.contextPath}/">Al Sat</a>
             </div>
             <nav>
                 <ul id="MenuItems">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="${pageContext.request.contextPath}/index">Home</a></li>
                     <li><a href="#">Category</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
-                    <li><a href="#">Account</a></li>
+                    <li><a href="${pageContext.request.contextPath}/account">Account</a></li>
                 </ul>
             </nav>
             <label class="menu-icon" onclick="menutoggle()">Menu</label>
@@ -31,12 +31,14 @@
 
         <div class="row">
             <div class="col-2">
-                <h1>Give your workout <br> a new style!</h1>
-                <p>Success is good thing but you have to gain it. Everything will bi ok if you
-                    can do it. do nothing but do everything.</p>
-                <a href="" class="btn">Explore now</a>
+                <h1>Add your product to sale!</h1>
+                <p>Just with one click, you can share your product and sale
+                    it in one minute.</p>
+                <a href="" class="btn">Create now! &#8594;</a>
             </div>
-            <div class="col-2"></div>
+            <div class="col-2">
+                <img class="add-product-img" src="/img/add_product.jpg">
+            </div>
         </div>
     </div>
 </div>
@@ -109,7 +111,28 @@
             <p>$50.00</p>
         </div>
     </div>
+</div>
 
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <label>Exclusive</label>
+            </div>
+            <div class="col-2">
+                <p>Exclusively available on store!</p>
+                <h1>Smart band 4</h1>
+                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur at eligendi, quibusdam quis
+                    rerum sunt
+                    tempora veritatis? Dolore ducimus explicabo illum, inventore modi odio omnis quasi sequi, sit soluta
+                    vitae.</small>
+                <a href="#" class="btn">Buy Now &#8594;</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="small-container">
     <h2 class="title">Latest Products</h2>
     <div class="row">
         <div class="col-4">
@@ -163,119 +186,10 @@
     </div>
 </div>
 
-<div class="offer">
-    <div class="small-container">
-        <div class="row">
-            <div class="col-2">
-                <label>Exclusive</label>
-            </div>
-            <div class="col-2">
-                <p>Exclusively available on store!</p>
-                <h1>Smart band 4</h1>
-                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur at eligendi, quibusdam quis rerum sunt
-                        tempora veritatis? Dolore ducimus explicabo illum, inventore modi odio omnis quasi sequi, sit soluta vitae.</small>
-                <a href="#" class="btn">Buy Now &#8594;</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="testimonial">
-    <div class="small-container">
-        <div class="row">
-            <div class="col-3">
-                <i class="fa fa-quote-left"></i>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, ullam, ut. Corporis distinctio ea
-                    earum facere ipsum perferendis saepe temporibus vitae voluptatem voluptates? Commodi doloribus dolorum eligendi
-                    officia recusandae repellendus.</p>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <h3>Sean Parker</h3>
-            </div>
-            <div class="col-3">
-                <i class="fa fa-quote-left"></i>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, ullam, ut. Corporis distinctio ea
-                    earum facere ipsum perferendis saepe temporibus vitae voluptatem voluptates? Commodi doloribus dolorum eligendi
-                    officia recusandae repellendus.</p>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <h3>Sean Parker</h3>
-            </div>
-            <div class="col-3">
-                <i class="fa fa-quote-left"></i>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, ullam, ut. Corporis distinctio ea
-                    earum facere ipsum perferendis saepe temporibus vitae voluptatem voluptates? Commodi doloribus dolorum eligendi
-                    officia recusandae repellendus.</p>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <h3>Sean Parker</h3>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="brands">
-    <div class="small-container">
-        <div class="row">
-            <div class="col-5">
-                <label>col 5</label>
-            </div>
-            <div class="col-5">
-                <label>col 5</label>
-            </div>
-            <div class="col-5">
-                <label>col 5</label>
-            </div>
-            <div class="col-5">
-                <label>col 5</label>
-            </div>
-            <div class="col-5">
-                <label>col 5</label>
-            </div>
-        </div>
-    </div>
-</div>
-
 <div class="footer">
     <div class="container">
         <div class="row">
             <div class="footer-col-1">
-                <h3>Download our app</h3>
-                <p>Download app for android and ios mobile phone.</p>
-                <div class="app-logo">
-                    <label>App logo</label>
-                </div>
-            </div>
-            <div class="footer-col-2">
-                <label>footer col 2</label>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur earum esse est fugiat hic incidunt nulla
-                    praesentium sed tempora. Ad cumque impedit, nobis numquam praesentium recusandae sed soluta unde.</p>
-            </div>
-            <div class="footer-col-3">
-                <h3>Useful links</h3>
-                <ul>
-                    <li>Coupons</li>
-                    <li>Blog Post</li>
-                    <li>Return Policy</li>
-                    <li>Join Affiliate</li>
-                </ul>
-            </div>
-            <div class="footer-col-4">
                 <h3>Follow us</h3>
                 <ul>
                     <li>Facebook</li>

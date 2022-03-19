@@ -21,11 +21,11 @@
             </div>
             <nav>
                 <ul id="MenuItems">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="${pageContext.request.contextPath}/index">Home</a></li>
                     <li><a href="#">Category</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
-                    <li><a href="#">Account</a></li>
+                    <li><a href="${pageContext.request.contextPath}/account">Account</a></li>
                 </ul>
             </nav>
             <label class="menu-icon" onclick="menutoggle()">Menu</label>

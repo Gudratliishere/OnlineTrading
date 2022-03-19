@@ -158,22 +158,6 @@ small {
     color: #555555;
 }
 
-.testimonial {
-    padding-top: 100px;
-}
-
-.testimonial .col-3 {
-    text-align: center;
-    padding: 40px 20px;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform 0.5s;
-}
-
-.testimonial .col-3:hover {
-    transform: translateY(-10px);
-}
-
 .fa.fa-quote-left {
     font-size: 34px;
     color: #ff523b;
@@ -189,10 +173,6 @@ small {
     font-weight: 600;
     color: #555555;
     font-size: 16px;
-}
-
-.brands {
-    margin: 100px auto;
 }
 
 .col-5 {
@@ -215,22 +195,10 @@ small {
     margin-bottom: 20px;
 }
 
-.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+.footer-col-1{
     min-width: 250px;
     margin-bottom: 20px;
-}
-
-.footer-col-1 {
-    flex-basis: 30%;
-}
-
-.footer-col-2 {
-    flex: 1;
-    text-align: center;
-}
-
-.footer-col-3, .footer-col-4 {
-    flex-basis: 12%;
+    flex-basis: 100%;
     text-align: center;
 }
 
@@ -259,6 +227,12 @@ ul {
     display: none;
 }
 
+.add-product-img {
+    width: 400px;
+    margin-left: 20%;
+    border-radius: 50px;
+}
+
 @media only screen and (max-width: 800px) {
     nav ul {
         position: absolute;
@@ -285,6 +259,12 @@ ul {
         display: block;
         cursor: pointer;
     }
+
+    .add-product-img {
+        width: 250px;
+        margin-left: 0;
+        border-radius: 50px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -294,6 +274,13 @@ ul {
 
     .col-2, .col-3, .col-4 {
         flex-basis: 100%;
+    }
+
+    .add-product-img {
+        width: 200px;
+        margin-left: 0;
+        margin-bottom: 15px;
+        border-radius: 50px;
     }
 }
 
