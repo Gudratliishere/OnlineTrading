@@ -36,7 +36,7 @@ public class AdvertService
         return advertRepository.findByCityAndCategoryAndSubcategoryAndKindAndUsedAndPriceBetween(
                 advertFilter.getCity(), advertFilter.getCategory(), advertFilter.getSubcategory(),
                 advertFilter.getKind(), advertFilter.getUsed(), advertFilter.getMinPrice(),
-                advertFilter.getMaxPrice());
+                advertFilter.getMaxPrice(), advertFilter.getMinVote());
     }
 
     public List<Advert> getByCity (City city)

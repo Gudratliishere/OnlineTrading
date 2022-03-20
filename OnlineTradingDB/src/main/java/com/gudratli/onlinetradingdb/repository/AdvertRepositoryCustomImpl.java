@@ -17,7 +17,7 @@ public class AdvertRepositoryCustomImpl implements AdvertRepositoryCustom
     @Override
     public List<Advert> findByCityAndCategoryAndSubcategoryAndKindAndUsedAndPriceBetween (City city,
             Category category, Subcategory subcategory, Kind kind, Boolean used, Integer minPrice,
-            Integer maxPrice)
+            Integer maxPrice, Integer minVote)
     {
         StringBuilder query =
                 new StringBuilder("select a from Advert a order by publish_date desc where 1 = 1");
@@ -36,6 +36,8 @@ public class AdvertRepositoryCustomImpl implements AdvertRepositoryCustom
             query.append(" and a.price >= :minPrice");
         if (maxPrice != null)
             query.append(" and a.price <= :maxPrice");
+        if (minVote != null)
+            query.append(" and a.vote >= :minVote");
 
         Query resultQuery = em.createQuery(query.toString(), Advert.class);
 
@@ -53,6 +55,8 @@ public class AdvertRepositoryCustomImpl implements AdvertRepositoryCustom
             resultQuery.setParameter("minPrice", minPrice);
         if (maxPrice != null)
             resultQuery.setParameter("maxPrice", maxPrice);
+        if (minVote != null)
+            resultQuery.setParameter("minVote", minVote);
 
         return resultQuery.getResultList();
     }

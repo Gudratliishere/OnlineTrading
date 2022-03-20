@@ -33,4 +33,7 @@ public class Advert
     private User user;
     @NonNull
     private City city;
+    private Integer vote;
+    @NonNull
+    private int degree = 1;
 }

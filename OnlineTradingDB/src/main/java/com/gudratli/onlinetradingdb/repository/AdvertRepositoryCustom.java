@@ -8,5 +8,5 @@ public interface AdvertRepositoryCustom
 {
     List<Advert> findByCityAndCategoryAndSubcategoryAndKindAndUsedAndPriceBetween(City city,
             Category category, Subcategory subcategory, Kind kind, Boolean used, Integer minPrice,
-            Integer maxPrice);
+            Integer maxPrice, Integer minVote);
 }

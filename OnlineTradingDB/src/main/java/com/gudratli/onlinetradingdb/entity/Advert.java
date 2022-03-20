@@ -52,6 +52,11 @@ public class Advert
     @Column(name = "used")
     @NonNull
     private Boolean used;
+    @Column(name = "vote")
+    private Integer vote;
+    @Column(name = "degree")
+    @NonNull
+    private int degree = 1;
     @Column(name = "publish_date")
     @Setter
     private Date publishDate;
@@ -64,7 +69,6 @@ public class Advert
         return "Advert{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", publish date=" + publishDate +
                 ", category=" + category +
                 ", subcategory=" + subcategory +
                 ", kind=" + kind +
@@ -73,6 +77,10 @@ public class Advert
                 ", description='" + description + '\'' +
                 ", user=" + user +
                 ", used=" + used +
+                ", vote=" + vote +
+                ", degree=" + degree +
+                ", publishDate=" + publishDate +
+                ", images=" + images +
                 '}';
     }
 }

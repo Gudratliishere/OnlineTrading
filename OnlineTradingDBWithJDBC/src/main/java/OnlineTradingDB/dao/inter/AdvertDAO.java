@@ -15,5 +15,5 @@ public interface AdvertDAO
     List<Advert> getByCity (City city);
     List<Advert> getByCityAndCategoryAndSubcategoryAndKindAndUsedAndPriceBetween (City city,
             Category category, Subcategory subcategory, Kind kind, Boolean used, Integer minPrice,
-            Integer maxPrice);
+            Integer maxPrice, Integer minVote);
 }

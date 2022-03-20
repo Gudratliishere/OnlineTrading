@@ -28,8 +28,9 @@ public class AdvertDAOImpl implements AdvertDAO
     @Override
     public Advert add (Advert advert)
     {
-        String query = "insert into advert (name, description, price, used, publish_date, category, subcategory, kind, user, city) " +
-                "values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
+        String query = "insert into advert (name, description, price, used, publish_date, category, subcategory, kind, user, city," +
+                " vote, degree) " +
+                "values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
         String queryForId = "select LAST_INSERT_ID();";
 
         try (Connection connection = connect())
@@ -56,7 +57,7 @@ public class AdvertDAOImpl implements AdvertDAO
     public Advert update (Advert advert)
     {
         String query = "update advert set name = ?, description = ?, price = ?, used = ?, publish_date = ?, category = ?, " +
-                "subcategory = ?, kind = ?, user = ?, city = ? where id = ?";
+                "subcategory = ?, kind = ?, user = ?, city = ?, vote = ?, degree = ? where id = ?";
 
         try (Connection connection = connect())
         {
@@ -87,6 +88,8 @@ public class AdvertDAOImpl implements AdvertDAO
         preparedStatement.setLong(8, advert.getKind().getId());
         preparedStatement.setLong(9, advert.getUser().getId());
         preparedStatement.setLong(10, advert.getCity().getId());
+        preparedStatement.setLong(11, advert.getVote());
+        preparedStatement.setLong(12, advert.getDegree());
     }
 
     @Override
@@ -200,17 +203,17 @@ public class AdvertDAOImpl implements AdvertDAO
 
     @Override
     public List<Advert> getByCityAndCategoryAndSubcategoryAndKindAndUsedAndPriceBetween (City city, Category category,
-            Subcategory subcategory, Kind kind, Boolean used, Integer minPrice, Integer maxPrice)
+            Subcategory subcategory, Kind kind, Boolean used, Integer minPrice, Integer maxPrice, Integer minVote)
     {
         StringBuilder query = new StringBuilder("select * from advert where 1 = 1");
-        fillQueryStringForFilter(query, city, category, subcategory, kind, used, minPrice, maxPrice);
+        fillQueryStringForFilter(query, city, category, subcategory, kind, used, minPrice, maxPrice, minVote);
         query.append("  order by publish_date desc");
 
         List<Advert> adverts = new ArrayList<>();
         try (Connection connection = connect())
         {
             PreparedStatement preparedStatement = connection.prepareStatement(query.toString());
-            setParametersForFilter(preparedStatement, city, category, subcategory, kind, used, minPrice, maxPrice);
+            setParametersForFilter(preparedStatement, city, category, subcategory, kind, used, minPrice, maxPrice, minVote);
             preparedStatement.execute();
 
             readResultSetToList(preparedStatement.getResultSet(), adverts);
@@ -223,7 +226,8 @@ public class AdvertDAOImpl implements AdvertDAO
     }
 
     private void setParametersForFilter (PreparedStatement preparedStatement, City city, Category category,
-            Subcategory subcategory, Kind kind, Boolean used, Integer minPrice, Integer maxPrice) throws SQLException
+            Subcategory subcategory, Kind kind, Boolean used, Integer minPrice, Integer maxPrice,
+            Integer minVote) throws SQLException
     {
         int index = 1;
         if (city != null)
@@ -239,11 +243,13 @@ public class AdvertDAOImpl implements AdvertDAO
         if (minPrice != null)
             preparedStatement.setInt(index++, minPrice);
         if (maxPrice != null)
-            preparedStatement.setInt(index, maxPrice);
+            preparedStatement.setInt(index++, maxPrice);
+        if (minVote != null)
+            preparedStatement.setInt(index, minVote);
     }
 
     private void fillQueryStringForFilter (StringBuilder query, City city, Category category,
-            Subcategory subcategory, Kind kind, Boolean used, Integer minPrice, Integer maxPrice)
+            Subcategory subcategory, Kind kind, Boolean used, Integer minPrice, Integer maxPrice, Integer minVote)
     {
         if (city != null)
             query.append(" and city = ?");
@@ -259,6 +265,8 @@ public class AdvertDAOImpl implements AdvertDAO
             query.append(" and price >= ?");
         if (maxPrice != null)
             query.append(" and price <= ?");
+        if (minVote != null)
+            query.append(" and vote >= ?");
     }
 
     private void readResultSetToList (ResultSet resultSet, List<Advert> adverts) throws SQLException
@@ -284,5 +292,7 @@ public class AdvertDAOImpl implements AdvertDAO
         advert.setKind(kindDAO.getById(resultSet.getLong("kind")));
         advert.setUser(userDAO.getById(resultSet.getLong("user")));
         advert.setCity(cityDAO.getById(resultSet.getLong("city")));
+        advert.setVote(resultSet.getInt("vote"));
+        advert.setDegree(resultSet.getInt("degree"));
     }
 }
