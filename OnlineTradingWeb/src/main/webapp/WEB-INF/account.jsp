@@ -37,10 +37,10 @@
     <div class="container">
         <div class="row">
             <div class="col-2">
-                <label>account image</label>
+                <img class="account-img" src="/img/account.jpg">
             </div>
             <div class="col-2">
-                <div class="form-container">
+                <div class="form-container" id="FormContainer">
                     <div class="form-btn">
                         <span onclick="loginToggle()">Login</span>
                         <span onclick="registerToggle()">Register</span>
@@ -55,8 +55,11 @@
                     </form>
 
                     <form id="RegisterForm">
-                        <input type="text" placeholder="username">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Surname">
                         <input type="email" placeholder="Email">
+                        <input type="text" placeholder="Phone number">
+                        <input type="text" placeholder="City">
                         <input type="password" placeholder="Password">
                         <button type="submit" class="btn">Register</button>
                      </form>
@@ -70,29 +73,6 @@
     <div class="container">
         <div class="row">
             <div class="footer-col-1">
-                <h3>Download our app</h3>
-                <p>Download app for android and ios mobile phone.</p>
-                <div class="app-logo">
-                    <label>App logo</label>
-                </div>
-            </div>
-            <div class="footer-col-2">
-                <label>footer col 2</label>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur earum esse est fugiat hic
-                    incidunt nulla
-                    praesentium sed tempora. Ad cumque impedit, nobis numquam praesentium recusandae sed soluta
-                    unde.</p>
-            </div>
-            <div class="footer-col-3">
-                <h3>Useful links</h3>
-                <ul>
-                    <li>Coupons</li>
-                    <li>Blog Post</li>
-                    <li>Return Policy</li>
-                    <li>Join Affiliate</li>
-                </ul>
-            </div>
-            <div class="footer-col-4">
                 <h3>Follow us</h3>
                 <ul>
                     <li>Facebook</li>
