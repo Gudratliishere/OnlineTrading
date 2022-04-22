@@ -4,7 +4,6 @@
 <head>
     <title>Account | Al Sat</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/account.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,25 +12,7 @@
           href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
 </head>
 <body>
-<div class="header">
-    <div class="container">
-        <div class="navbar">
-            <div class="logo">
-                <a href="/">Al Sat</a>
-            </div>
-            <nav>
-                <ul id="MenuItems">
-                    <li><a href="${pageContext.request.contextPath}/index">Home</a></li>
-                    <li><a href="#">Category</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="${pageContext.request.contextPath}/account">Account</a></li>
-                </ul>
-            </nav>
-            <label class="menu-icon" onclick="menutoggle()">Menu</label>
-        </div>
-    </div>
-</div>
+<%@include file="header.jsp"%>
 
 <div class="account-page">
     <div class="container">
@@ -69,26 +50,9 @@
     </div>
 </div>
 
-<div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="footer-col-1">
-                <h3>Follow us</h3>
-                <ul>
-                    <li>Facebook</li>
-                    <li>Instagram</li>
-                    <li>Twitter</li>
-                    <li>YouTube</li>
-                </ul>
-            </div>
-        </div>
-        <hr>
-        <p class="copyright">Copyright 2022 - Dunay Gudratli</p>
-    </div>
-</div>
+<%@include file="footer.jsp"%>
 
 </body>
 </html>
 
-<script src="js/Index.js"></script>
 <script src="js/Account.js"></script>

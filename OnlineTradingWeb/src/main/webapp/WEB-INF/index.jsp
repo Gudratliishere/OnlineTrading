@@ -11,24 +11,11 @@
           href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
 </head>
 <body>
+
+<%@include file="header.jsp"%>
+
 <div class="header">
     <div class="container">
-        <div class="navbar">
-            <div class="logo">
-                <a href="${pageContext.request.contextPath}/">Al Sat</a>
-            </div>
-            <nav>
-                <ul id="MenuItems">
-                    <li><a href="${pageContext.request.contextPath}/index">Home</a></li>
-                    <li><a href="#">Category</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="${pageContext.request.contextPath}/account">Account</a></li>
-                </ul>
-            </nav>
-            <label class="menu-icon" onclick="menutoggle()">Menu</label>
-        </div>
-
         <div class="row">
             <div class="col-2">
                 <h1>Add your product to sale!</h1>
@@ -43,71 +30,27 @@
     </div>
 </div>
 
-<div class="categories">
-    <div class="small-container">
-        <div class="row">
-            <div class="col-3">
-                <label>col 3</label>
-            </div>
-            <div class="col-3">
-                <label>col 3</label>
-            </div>
-            <div class="col-3">
-                <label>col 3</label>
-            </div>
-        </div>
-    </div>
-</div>
-
 <div class="small-container">
     <h2 class="title">Featured Products</h2>
     <div class="row">
         <div class="col-4">
             <label>Col 4</label>
             <h4>Red printed T-shirt</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
             <p>$50.00</p>
         </div>
         <div class="col-4">
             <label>Col 4</label>
             <h4>Red printed T-shirt</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
             <p>$50.00</p>
         </div>
         <div class="col-4">
             <label>Col 4</label>
             <h4>Red printed T-shirt</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
             <p>$50.00</p>
         </div>
         <div class="col-4">
             <label>Col 4</label>
             <h4>Red printed T-shirt</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
             <p>$50.00</p>
         </div>
     </div>
@@ -138,73 +81,27 @@
         <div class="col-4">
             <label>Col 4</label>
             <h4>Red printed T-shirt</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
             <p>$50.00</p>
         </div>
         <div class="col-4">
             <label>Col 4</label>
             <h4>Red printed T-shirt</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
             <p>$50.00</p>
         </div>
         <div class="col-4">
             <label>Col 4</label>
             <h4>Red printed T-shirt</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
             <p>$50.00</p>
         </div>
         <div class="col-4">
             <label>Col 4</label>
             <h4>Red printed T-shirt</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
             <p>$50.00</p>
         </div>
     </div>
 </div>
 
-<div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="footer-col-1">
-                <h3>Follow us</h3>
-                <ul>
-                    <li>Facebook</li>
-                    <li>Instagram</li>
-                    <li>Twitter</li>
-                    <li>YouTube</li>
-                </ul>
-            </div>
-        </div>
-        <hr>
-        <p class="copyright">Copyright 2022 - Dunay Gudratli</p>
-    </div>
-</div>
+<%@include file="footer.jsp"%>
 
 </body>
 </html>
-
-<script src="js/Index.js"></script>

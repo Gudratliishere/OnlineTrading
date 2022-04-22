@@ -7,7 +7,7 @@
 .form-container {
     background: #ffffff;
     width: 300px;
-    height: 400px;
+    height: 520px;
     position: relative;
     text-align: center;
     padding: 20px 0;
@@ -82,4 +82,10 @@ form a {
 .account-img {
     width: 100%;
     border-radius: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .account-img {
+        display: none;
+    }
 }
