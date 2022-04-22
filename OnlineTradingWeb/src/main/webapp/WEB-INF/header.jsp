@@ -16,8 +16,7 @@
                 <ul id="MenuItems">
                     <li><a href="${pageContext.request.contextPath}/index">Home</a></li>
                     <li><a href="#">Category</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="${pageContext.request.contextPath}/about">About us</a></li>
                     <li><a href="${pageContext.request.contextPath}/account">Account</a></li>
                 </ul>
             </nav>
