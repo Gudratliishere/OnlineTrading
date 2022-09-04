@@ -52,7 +52,7 @@ public class AdvertService
         return advertDAO.getByCityAndCategoryAndSubcategoryAndKindAndUsedAndPriceBetween(
                 advertFilter.getCity(), advertFilter.getCategory(), advertFilter.getSubcategory(),
                 advertFilter.getKind(), advertFilter.getUsed(), advertFilter.getMinPrice(),
-                advertFilter.getMaxPrice()
+                advertFilter.getMaxPrice(), advertFilter.getMinVote()
                                                                                         );
     }
 }

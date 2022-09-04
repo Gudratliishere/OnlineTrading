@@ -18,7 +18,8 @@ public class AdvertFilter
     private Boolean used = null;
     private Integer minPrice = null;
     private Integer maxPrice = null;
-    private Integer minVote;
+    private Integer minVote = null;
+    private Integer degree = null;
 
     private AdvertFilter () {}
 
@@ -72,6 +73,12 @@ public class AdvertFilter
     public AdvertFilter addMinVote (Integer minVote)
     {
         this.minVote = minVote;
+        return this;
+    }
+
+    public AdvertFilter addDegree (Integer degree)
+    {
+        this.degree = degree;
         return this;
     }
 }

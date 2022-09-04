@@ -18,6 +18,7 @@ public class AdvertFilter
     private Boolean used = null;
     private Integer minPrice = null;
     private Integer maxPrice = null;
+    private Integer minVote = null;
 
     private AdvertFilter () {}
 

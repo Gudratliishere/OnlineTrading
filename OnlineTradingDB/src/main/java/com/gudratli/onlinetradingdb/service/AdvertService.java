@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import java.util.Date;
 import java.util.List;
 
-@Service
+@Service("advertService")
 @RequiredArgsConstructor
 public class AdvertService
 {
@@ -36,7 +36,7 @@ public class AdvertService
         return advertRepository.findByCityAndCategoryAndSubcategoryAndKindAndUsedAndPriceBetween(
                 advertFilter.getCity(), advertFilter.getCategory(), advertFilter.getSubcategory(),
                 advertFilter.getKind(), advertFilter.getUsed(), advertFilter.getMinPrice(),
-                advertFilter.getMaxPrice(), advertFilter.getMinVote());
+                advertFilter.getMaxPrice(), advertFilter.getMinVote(), advertFilter.getDegree());
     }
 
     public List<Advert> getByCity (City city)

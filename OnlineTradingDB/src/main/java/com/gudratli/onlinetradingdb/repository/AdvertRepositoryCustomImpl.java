@@ -17,10 +17,10 @@ public class AdvertRepositoryCustomImpl implements AdvertRepositoryCustom
     @Override
     public List<Advert> findByCityAndCategoryAndSubcategoryAndKindAndUsedAndPriceBetween (City city,
             Category category, Subcategory subcategory, Kind kind, Boolean used, Integer minPrice,
-            Integer maxPrice, Integer minVote)
+            Integer maxPrice, Integer minVote, Integer degree)
     {
         StringBuilder query =
-                new StringBuilder("select a from Advert a order by publish_date desc where 1 = 1");
+                new StringBuilder("select a from Advert a where 1 = 1");
 
         if (city != null)
             query.append(" and a.city = :city");
@@ -38,6 +38,10 @@ public class AdvertRepositoryCustomImpl implements AdvertRepositoryCustom
             query.append(" and a.price <= :maxPrice");
         if (minVote != null)
             query.append(" and a.vote >= :minVote");
+        if (degree != null)
+            query.append(" and a.degree = :degree");
+
+        query.append(" order by publish_date desc");
 
         Query resultQuery = em.createQuery(query.toString(), Advert.class);
 
@@ -57,6 +61,8 @@ public class AdvertRepositoryCustomImpl implements AdvertRepositoryCustom
             resultQuery.setParameter("maxPrice", maxPrice);
         if (minVote != null)
             resultQuery.setParameter("minVote", minVote);
+        if (degree != null)
+            resultQuery.setParameter("degree", degree);
 
         return resultQuery.getResultList();
     }
